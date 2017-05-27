@@ -1,0 +1,44 @@
+body {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: #22222c
+}
+
+.header-container {
+    height: 60vh;
+    width: 100%;
+    padding-top: 30vh;
+}
+
+.heading {
+    font-family: 'Yesteryear', cursive;
+    color: #eee;
+    text-align: center;
+    font-size: 20em;
+    margin: 0;
+}
+
+.main {
+    padding: 1%;
+    background-color: white;
+}
+
+.entry-container {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: white;
+    padding: 1%;
+}
+
+.entry-container h1 {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.entry-content.image {
+    width: 100%;
+}
