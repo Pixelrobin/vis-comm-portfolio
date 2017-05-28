@@ -101,3 +101,8 @@ a:hover   {
     border-color: #eee;
 }
 a:active  { color: #eee; }
+
+.copyright {
+    color: #77777f;
+    text-align: center;
+}
