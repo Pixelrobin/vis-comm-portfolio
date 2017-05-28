@@ -3,21 +3,64 @@
         <title>Michael Savchuk</title>
         <link rel = "stylesheet" href = "css/normalize.css">
         <link rel = "stylesheet" href = "css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin|Yesteryear" rel="stylesheet">
     </head>
 
     <body>
-        <!--<div class = "main">-->
-            <div class = "header-container">
-                <h1 class = "heading">Michael Savchuk</h1>
+        <div class = "header-container">
+            <h1 class = "heading">Michael Savchuk</h1>
+        </div>
+        <!--<div class = "entry-container">
+            <img class = "entry-content image" src = "img/lost.jpg"></img>
+            <div class = "entry-description">
+                <h1 id = "entry-title">Hello World!</h1>
+                <h2 id = "entry-description">Description is very description-like</h2>
             </div>
-            <div class = "entry-container">
-                <img class = "entry-content image" src = "http://wallpapercave.com/wp/ISllBuH.jpg"></img>
-                <div class = "entry-description">
-                    <h1>Hello World!</h1>
-                </div>
-            </div>
-        <!--</div>-->
+        </div>-->
+
+        <div class = "content">
+            <img class = "content-image" src = "img/lost.jpg">
+            <h1 id = "entry-title">Mock music album cover</h1>
+            <h2 id = "entry-description">Photoshop</h2>
+        </div>
+
+        <div class = "content">
+            <img class = "content-image" src = "img/avatar.png">
+            <h1 id = "entry-title">Personal Avatar</h1>
+            <h2 id = "entry-description">SVG graphics</h2>
+        </div>
+
+        <div class = "content">
+            <img class = "content-image" src = "img/magazinead.jpg">
+            <h1 id = "entry-title">Magazine ad/poster for Art 185</h1>
+            <h2 id = "entry-description">Vector and raster graphics</h2>
+        </div>
+
+        <div class = "content">
+            <iframe class = "content-image" width="1253" height="714" src="https://www.youtube.com/embed/9lNNdZeZ608" frameborder="0" allowfullscreen></iframe>
+            <h1 id = "entry-title">Logo for a church kids camp event</h1>
+            <h2 id = "entry-description">SVG and 3D graphics, animated in Blender.</h2>
+        </div>
+
+        <div class = "content">
+            <img class = "content-image" src = "img/mast.gif">
+            <h1 id = "entry-title">Interactive 3D sailboat</h1>
+            <h2 id = "entry-description">SVG and 3D graphics, programmed in Javascript/WebGL</h2>
+        </div>
+
+        <div class = "content">
+            <img class = "content-image" src = "img/flier.jpg">
+            <h1 id = "entry-title">Flier for Art 185</h1>
+            <h2 id = "entry-description">Vector and raster graphics</h2>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+        <script type = "text/javascript" src = "js/main.js"></script>
 
     </body>
 </html>

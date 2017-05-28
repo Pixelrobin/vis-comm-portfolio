@@ -1,6 +1,6 @@
 body {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 9vw;
+    padding-right: 9vw;
     padding-top: 1%;
     padding-bottom: 2%;
     background-color: #22222c
@@ -16,29 +16,58 @@ body {
     font-family: 'Yesteryear', cursive;
     color: #eee;
     text-align: center;
-    font-size: 20em;
+    font-size: 10vh;
     margin: 0;
 }
 
 .main {
     padding: 1%;
-    background-color: white;
+    background-color: #eee;
 }
 
-.entry-container {
-    margin-bottom: 10px;
-    width: 100%;
-    background-color: white;
-    padding: 1%;
+.content {
+    text-align: center;
 }
 
-.entry-container h1 {
-    font-size: 4em;
+.content h1 {
+    margin: 0;
+    margin-top: 0.5vh;
+    color:#ccc;
+    font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
 }
 
-.entry-content.image {
+.content h2 {
+    margin-top: 0.5vh;
+    font-size: 1.5vw;
+    color: #bbb;
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 20vh;
+}
+
+.content-container {
+    max-height: 50vh;
     width: 100%;
+    height: auto;
+}
+
+.content-description {
+    text-align: left !important;
+    width: 100%;
+    margin-top: 100%;
+}
+
+.content-image {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    max-width: 100%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    display: block;
+    border-style: solid;
+    border-width: 0.8vh;
+    border-color: #eee;
+    margin-left: auto;;
+    margin-right: auto;
 }
